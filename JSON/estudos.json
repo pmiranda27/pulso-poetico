@@ -1,0 +1,73 @@
+{
+    "trovadorismo": [
+        {
+            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
+        }, {
+            "titulo": "Beto Carreiro World",
+            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+        }
+    ],
+
+    "humanismo": [
+        {
+            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
+        }, {
+            "titulo": "Beto Carreiro World",
+            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+        }   
+    ],
+
+    "classicismo": [
+        {
+            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
+        }, {
+            "titulo": "Beto Carreiro World",
+            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+        }   
+    ],
+
+    "quinhentismo": [
+        {
+            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
+        }, {
+            "titulo": "Beto Carreiro World",
+            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+        }   
+    ],
+
+    "barroco": [
+        {
+            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
+        }, {
+            "titulo": "Beto Carreiro World",
+            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+        }   
+    ],
+
+    "arcadismo": [
+        {
+            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
+        }, {
+            "titulo": "Beto Carreiro World",
+            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+        }   
+    ]
+}

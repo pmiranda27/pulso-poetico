@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Estudos</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="CSS/estudos.css">
+    </head>
+    <body>
+        <header>
+            <h2>Pulso Poético</h2>
+            <ul>
+                <a href="estudo.html">
+                    <li id="estudos-link">Estudos</li>
+                </a>
+                <a href="">
+                    <li id="home-link">Home</li>
+                </a>
+                <a href="quem_somos.html">
+                    <li id="quem-link">Quem somos</li>
+                </a>
+            </ul>
+        </header>
+        <main>
+            <div class="bem-vindo">
+                <h3>Estudos da</h3>
+                <h3>Língua Portuguesa</h3>
+            </div>
+
+            <div class="barra-pesquisa">
+                <label for="barra-pesquisa">
+                    <img src="Images/pesquisa.png">
+                </label>
+                <input type="text" name="barra-pesquisa" placeholder="Pesquise aqui...">
+            </div>
+
+            <section class="categorias">
+                <div class="categoria-select" >
+                    <div class="categoria-select-titulo">
+                        <h3>Trovadorismo</h3>
+                        <div id="categoria-trovadorismo"></div>
+                        <img src="Images/down-arrow.png" class="arrow-dropdown">
+                    </div>
+                </div>
+                <section class="conteudos closed" id="conteudo-trovadorismo"></section>
+
+                <div class="categoria-select">
+                    <div class="categoria-select-titulo">
+                        <h3>Humanismo</h3>
+                        <div id="categoria-humanismo"></div>
+                        <img src="Images/down-arrow.png" class="arrow-dropdown">
+                    </div>
+                </div>
+                <section class="conteudos closed" id="conteudo-humanismo"></section>
+
+                <div class="categoria-select">
+                    <div class="categoria-select-titulo">
+                        <h3>Classicismo</h3>
+                        <div id="categoria-classicismo"></div>
+                        <img src="Images/down-arrow.png" class="arrow-dropdown">
+                    </div>
+                </div>
+                <section class="conteudos closed" id="conteudo-classicismo"></section>
+
+                <div class="categoria-select">
+                    <div class="categoria-select-titulo">
+                        <h3>Quinhentismo</h3>
+                        <div id="categoria-quinhentismo"></div>
+                        <img src="Images/down-arrow.png" class="arrow-dropdown">
+                    </div>
+                </div>
+                <section class="conteudos closed" id="conteudo-quinhentismo"></section>
+
+                <div class="categoria-select">
+                    <div class="categoria-select-titulo">
+                        <h3>Barroco</h3>
+                        <div id="categoria-barroco"></div>
+                        <img src="Images/down-arrow.png" class="arrow-dropdown">
+                    </div>
+                </div>
+                <section class="conteudos closed" id="conteudo-barroco"></section>
+
+                <div class="categoria-select">
+                    <div class="categoria-select-titulo">
+                        <h3>Arcadismo</h3>
+                        <div id="categoria-arcadismo"></div>
+                        <img src="Images/down-arrow.png" class="arrow-dropdown">
+                    </div>
+                </div>
+                <section class="conteudos closed" id="conteudo-arcadismo"></section>
+        </main>
+        
+        <script type="module" src="JS/estudos.js" async defer></script>
+    </body>
+</html>

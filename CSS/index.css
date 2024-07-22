@@ -1,0 +1,420 @@
+@import url('reset.css');
+
+* {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+
+    background-color: #143D74;
+    color: white;
+
+    font-family: 'Poppins';
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+    header {
+        height: 20vh;
+        flex-direction: column;
+
+        padding: 8px 0;
+    }
+}
+
+.barra-pesquisa {
+    width: 30%;
+    height: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+@media (max-width: 710px) {
+    .barra-pesquisa {
+        width: 35%;
+    }
+}
+@media (max-width: 500px){
+    .barra-pesquisa {
+        width: 75%;
+
+        margin-bottom: 16px;
+    }
+}
+
+.barra-pesquisa img {
+    position: absolute;
+
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+}
+
+.barra-pesquisa input {
+    width: 100%;
+    height: 100%;
+
+    padding-left: 44px;
+    padding-right: 8px;
+
+    font-family: 'Poppins';
+    font-size: 1.25rem;
+
+    border: 1px solid black;
+    border-radius: 24px;
+}
+
+header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+
+    user-select: none;
+}
+
+@media (max-width: 760px){
+    header h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px){
+    header h2 {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+}
+
+header ul {
+    width: 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    position: relative;
+
+    font-size: 1.25rem;
+}
+
+@media (max-width: 1020px) {
+    header ul {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 820px){
+    header ul {
+        width: 20%;
+
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 540px){
+    header ul {
+        height: 80%;
+
+        font-size: 0.9rem;
+    }
+    #quem-link {
+        text-align: center;
+    }
+}
+@media (max-width: 500px){
+    header ul {
+        width: 100%;
+
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 350px){
+    header ul {
+        font-size: 1rem;
+    }
+}
+
+header ul a li {
+    width: 100%;
+}
+
+a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+}
+
+li::after {
+    content: '';
+    
+    width: 50%;
+    height: 0.1em;
+
+    bottom: 0;
+    left: 50%;
+
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: white;
+    
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms, width 500ms;
+}
+
+li:hover::after,
+li:focus::after {
+    opacity: 1;
+    transform: translate3d(-50%, 0.5em, 0);
+
+    width: 100%;
+}
+
+#home-link::after {
+    content: '';
+    
+    width: 100%;
+    height: 0.1em;
+    
+    bottom: 0;
+    left: 50%;
+
+    opacity: 1;
+
+    
+    position: absolute;
+    transform: translateX(-50%);
+    transform: translate3d(-50%, 0.5em, 0);
+    background-color: white;
+}
+
+main {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 56px;
+}
+
+.bem-vindo {
+    font-family: 'Poppins';
+
+    width: auto;
+    height: auto;
+
+    text-align: center;
+}
+
+.bem-vindo h3:nth-child(1) {
+    font-size: 2.25rem;
+}
+.bem-vindo h3:nth-child(2) {
+    font-size: 1.75rem;
+}
+.bem-vindo h3:nth-child(3) {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    margin-top: 8px;
+
+    color: #143D74;
+}
+@media (max-width: 350px){
+    .bem-vindo h3:nth-child(1) {
+            font-size: 2rem;
+        }
+    
+        .bem-vindo h3:nth-child(2) {
+            font-size: 1.5rem;
+        }
+    
+        .bem-vindo h3:nth-child(3) {
+            font-size: 2.25rem;
+            font-weight: bold;
+    
+            margin-top: 8px;
+    
+            color: #143D74;
+        }
+}
+@media (max-width: 280px){
+    .bem-vindo h3:nth-child(1) {
+            font-size: 1.75rem;
+        }
+    
+        .bem-vindo h3:nth-child(2) {
+            font-size: 1.25rem;
+        }
+    
+        .bem-vindo h3:nth-child(3) {
+            font-size: 1.75rem;
+            font-weight: bold;
+    
+            margin-top: 8px;
+    
+            color: #143D74;
+        }
+}
+
+.frase-motivadora {
+    margin-top: 72px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+
+    border: 1px solid #00569D;
+    border-radius: 15px;
+
+    font-family: 'Poppins';
+}
+@media (max-width: 620px){
+    .frase-motivadora {
+        width: 60%;
+    }
+}
+
+
+.frase-motivadora p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-style: italic;
+
+    width: 80%;
+
+    text-align: center;
+
+    color: #006DB2;
+}
+@media (max-width: 870px){
+    .frase-motivadora p {
+        width: 95%;
+    }
+}
+
+.frase-motivadora a {
+    text-align: end;
+    align-self: flex-end;
+
+    color: #00569D;
+
+    font-weight: 700;
+    font-size: 1.25rem;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+
+    margin-top: 16px;
+}
+
+
+.ultimos-poemas {
+    width: 100%;
+    height: 32vh;
+
+    margin-top: 72px;
+
+    padding: 0px 16px;
+
+    font-family: 'Poppins';
+}
+.ultimos-poemas h3{
+    font-size: 2.25rem;
+
+    margin: 0 16px;
+}
+.ultimos-poemas .background {
+    width: 100%;
+    height: 80%;
+    margin-top: 8px;
+
+    background-color: #143D74;
+}
+
+@media (max-width: 1350px){
+    .ultimos-poemas h3 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1200px){
+    .ultimos-poemas h3 {
+        font-size: 1.75rem;
+    }
+}
+@media (max-width: 1100px){
+    .ultimos-poemas h3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+.principais-conteudos {
+    width: 100%;
+    height: 32vh;
+
+    margin-top: 96px;
+    margin-bottom: 80px;
+
+    padding: 0px 16px;
+
+    font-family: 'Poppins';
+}
+.principais-conteudos h3{
+    font-size: 2.25rem;
+
+    margin: 0 16px;
+}
+.principais-conteudos .background {
+    width: 100%;
+    height: 80%;
+    margin-top: 8px;
+
+    background-color: #143D74;
+}
+
+@media (max-width: 1350px) {
+    .principais-conteudos h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .principais-conteudos h3 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .principais-conteudos h3 {
+        font-size: 1.5rem;
+    }
+}
