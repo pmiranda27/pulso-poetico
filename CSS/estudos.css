@@ -306,19 +306,11 @@ main {
     transform: translate(0, -50%);
     position: absolute;
 
-    transition: transform 1s ease;
+    transition: transform 300ms ease;
 }
 .arrow-dropdown-upsidedown {
     transform: rotateZ(180deg) translate(0, 50%);
 }
-
-/* 
-@keyframes girar-arrow-dropdown {
-    0% { transform: rotateZ(0deg); }
-    20% { transform: rotateZ(-20deg); }
-    80% { transform: rotateZ(200deg); }
-    100% { transform: rotateZ(180deg); transform: translateY(-100%); }
-} */
 
 
 

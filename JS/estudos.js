@@ -10,19 +10,19 @@ const quantidadeTrovadorismo = document.getElementById('categoria-trovadorismo')
 const conteudoTrovadorismo = document.getElementById('conteudo-trovadorismo');
 
 const quantidadeHumanismo = document.getElementById('categoria-humanismo');
-const conteudoHumanismo = document.getElementById('categoria-humanismo');
+const conteudoHumanismo = document.getElementById('conteudo-humanismo');
 
 const quantidadeClassicismo = document.getElementById('categoria-classicismo');
-const conteudoClassicismo = document.getElementById('categoria-classicismo');
+const conteudoClassicismo = document.getElementById('conteudo-classicismo');
 
 const quantidadeQuinhentismo = document.getElementById('categoria-quinhentismo');
-const conteudoQuinhentismo = document.getElementById('categoria-quinhentismo');
+const conteudoQuinhentismo = document.getElementById('conteudo-quinhentismo');
 
 const quantidadeBarroco = document.getElementById('categoria-barroco');
-const conteudoBarroco = document.getElementById('categoria-barroco');
+const conteudoBarroco = document.getElementById('conteudo-barroco');
 
 const quantidadeArcadismo = document.getElementById('categoria-arcadismo');
-const conteudoArcadismo = document.getElementById('categoria-arcadismo');
+const conteudoArcadismo = document.getElementById('conteudo-arcadismo');
 
 
 var videosTrovadorismo = estudos.trovadorismo;
