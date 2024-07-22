@@ -335,6 +335,8 @@ main {
 .item-conteudo {
     display: flex;
 
+    opacity: 1;
+
     align-items: center;
     gap: 32px;
 
@@ -346,9 +348,14 @@ main {
 
     font-size: 1.75rem;
     font-weight: 600;
+
+    transition: opacity 270ms;
 }
 .item-conteudo:hover {
     background-color: rgb(164, 176, 190);
+}
+.item-collapsed {
+    opacity: 0;
 }
 
 .thumb-video {
