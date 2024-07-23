@@ -317,19 +317,22 @@ main {
 .conteudos {
     width: 95%;
     padding: 16px;
-    max-height: fit-content;
+    max-height: 0px;
 
     margin-bottom: 16px;
 
     border-radius: 0 0 15px 15px;
     background-color: #ccd5e0;
 
+    overflow: hidden;
+
     transition: all 1s;
 }
 .closed {
     display: none;
-
-    height: 0;
+}
+.conteudos-roll {
+    max-height: 300px;
 }
 
 .item-conteudo {
@@ -349,7 +352,7 @@ main {
     font-size: 1.75rem;
     font-weight: 600;
 
-    transition: opacity 270ms;
+    transition: opacity 100ms;
 }
 .item-conteudo:hover {
     background-color: rgb(164, 176, 190);

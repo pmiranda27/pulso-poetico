@@ -86,30 +86,23 @@ todasCategorias[0].addEventListener('click', () => {
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[0].classList.add('arrow-dropdown-upsidedown');
 
-        // Delay de 310ms (milissegundos).
+        // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
-            // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Trovadorismo.
-            for (var i = 0; i < todosAnchorsTrovadorismo.length; i++){
-                // Remove a classe que deixa-os invisíveis.
-                todosAnchorsTrovadorismo[i].classList.remove('item-collapsed');
-            }
-        }, 310)
+            todosConteudos[0].classList.add('conteudos-roll');
+        }, 50);
 
     // Caso a categoria estiver aberta
     } else {
-        // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Trovadorismo.
-        for (var i = 0; i < todosAnchorsTrovadorismo.length; i++){
-                // Adiciona a classe que deixa-os invisíveis.
-                todosAnchorsTrovadorismo[i].classList.add('item-collapsed');
-            }
+        // Remove a classe que anima a abertura da categoria
+        setTimeout(() => {
+            todosConteudos[0].classList.remove('conteudos-roll');
+        }, 50);
 
         // Delay de 285ms (milissegundos)
         setTimeout(() => {
             // Adicione a classe "closed" à categoria. Feche-a.
             todosConteudos[0].classList.add('closed');
-        }, 285);
+        }, 1100);
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[0].classList.remove('arrow-dropdown-upsidedown');
@@ -129,30 +122,23 @@ todasCategorias[1].addEventListener('click', () => {
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[1].classList.add('arrow-dropdown-upsidedown');
 
-        // Delay de 310ms (milissegundos).
+        // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
-            // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Humanismo.
-            for (var i = 0; i < todosAnchorsHumanismo.length; i++) {
-                // Remove a classe que deixa-os invisíveis.
-                todosAnchorsHumanismo[i].classList.remove('item-collapsed');
-            }
-        }, 310);
+            todosConteudos[1].classList.add('conteudos-roll');
+        }, 50);
 
     // Se a categoria estiver aberta.
     } else {
-        // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Humanismo.
-        for (var i = 0; i < todosAnchorsHumanismo.length; i++){
-                // Adiciona a classe que deixa-os invisíveis.
-                todosAnchorsHumanismo[i].classList.add('item-collapsed');
-        }
+        // Remove a classe que anima a abertura da categoria
+        setTimeout(() => {
+            todosConteudos[1].classList.remove('conteudos-roll');
+        }, 50);
 
         // Delay de 285ms (milissegundos)
         setTimeout(() => {
             // Adicione a classe "closed" à categoria. Feche-a.
             todosConteudos[1].classList.add('closed');
-        }, 285);
+        }, 1100);
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[1].classList.remove('arrow-dropdown-upsidedown');
@@ -170,30 +156,23 @@ todasCategorias[2].addEventListener('click', () => {
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[2].classList.add('arrow-dropdown-upsidedown');
 
-        // Delay de 310ms (milissegundos).
+        // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
-            // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Classicismo.
-            for (var i = 0; i < todosAnchorsClassicismo.length; i++) {
-                // Remove a classe que deixa-os invisíveis.
-                todosAnchorsClassicismo[i].classList.remove('item-collapsed');
-            }
-        }, 310);
+            todosConteudos[2].classList.add('conteudos-roll');
+        }, 50);
 
     // Se a categoria estiver fechada.
     } else {
-        // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Classicismo.
-        for (var i = 0; i < todosAnchorsClassicismo.length; i++){
-                // Adiciona a classe que deixa-os invisíveis.
-                todosAnchorsClassicismo[i].classList.add('item-collapsed');
-        }
+        // Remove a classe que anima a abertura da categoria
+        setTimeout(() => {
+            todosConteudos[2].classList.remove('conteudos-roll');
+        }, 50);
 
         // Delay de 285ms (milissegundos)
         setTimeout(() => {
             // Adicione a classe "closed" à categoria. Feche-a.
             todosConteudos[2].classList.add('closed');
-        }, 285);
+        }, 1100);
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[2].classList.remove('arrow-dropdown-upsidedown');
@@ -211,30 +190,23 @@ todasCategorias[3].addEventListener('click', () => {
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[3].classList.add('arrow-dropdown-upsidedown');
 
-        // Delay de 310ms (milissegundos).
+        // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
-            // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Quinhentismo.
-            for (var i = 0; i < todosAnchorsQuinhentismo.length; i++) {
-                // Remove a classe que deixa-os invisíveis.
-                todosAnchorsQuinhentismo[i].classList.remove('item-collapsed');
-            }
-        }, 310);
+            todosConteudos[3].classList.add('conteudos-roll');
+        }, 50);
 
     // Se a categoria estiver aberta.
     } else {
-        // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Quinhentismo.
-        for (var i = 0; i < todosAnchorsQuinhentismo.length; i++){
-                // Adiciona a classe que deixa-os invisíveis.
-                todosAnchorsQuinhentismo[i].classList.add('item-collapsed');
-        }
+        // Remove a classe que anima a abertura da categoria
+        setTimeout(() => {
+            todosConteudos[3].classList.remove('conteudos-roll');
+        }, 50);
 
         // Delay de 285ms (milissegundos)
         setTimeout(() => {
             // Adicione a classe "closed" à categoria. Feche-a.
             todosConteudos[3].classList.add('closed');
-        }, 285);
+        }, 1100);
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[3].classList.remove('arrow-dropdown-upsidedown');
@@ -251,31 +223,24 @@ todasCategorias[4].addEventListener('click', () => {
 
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[4].classList.add('arrow-dropdown-upsidedown');
-
-        // Delay de 310ms (milissegundos).
+        
+        // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
-            // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Barroco.
-            for (var i = 0; i < todosAnchorsBarroco.length; i++) {
-                // Remove a classe que deixa-os invisíveis.
-                todosAnchorsBarroco[i].classList.remove('item-collapsed');
-            }
-        }, 310);
+            todosConteudos[4].classList.add('conteudos-roll');
+        }, 50);
 
     // Se a categoria estiver aberta.
     } else {
-        // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Barroco.
-        for (var i = 0; i < todosAnchorsBarroco.length; i++){
-            // Adiciona a classe que deixa-os invisíveis.
-            todosAnchorsBarroco[i].classList.add('item-collapsed');
-        }
+        // Remove a classe que anima a abertura da categoria
+        setTimeout(() => {
+            todosConteudos[4].classList.remove('conteudos-roll');
+        }, 50);
 
         // Delay de 285ms (milissegundos)
         setTimeout(() => {
             // Adicione a classe "closed" à categoria. Feche-a.
             todosConteudos[4].classList.add('closed');
-        }, 285);
+        }, 1100);
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[4].classList.remove('arrow-dropdown-upsidedown');
@@ -293,30 +258,23 @@ todasCategorias[5].addEventListener('click', () => {
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[5].classList.add('arrow-dropdown-upsidedown');
 
-        // Delay de 310ms (milissegundos).
+        // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
-            // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Arcadismo.
-            for (var i = 0; i < todosAnchorsArcadismo.length; i++) {
-                // Remove a classe que deixa-os invisíveis.
-                todosAnchorsArcadismo[i].classList.remove('item-collapsed');
-            }
-        }, 310);
+            todosConteudos[5].classList.add('conteudos-roll');
+        }, 50);
 
     // Se a categoria estiver aberta.
     } else {
-        // Aqui eu consigo usar um for loop por algum motivo.
-                // Itera sobre todos os anchors (links) de vídeos sobre o Arcadismo.
-        for (var i = 0; i < todosAnchorsArcadismo.length; i++){
-            // Adiciona a classe que deixa-os invisíveis.
-            todosAnchorsArcadismo[i].classList.add('item-collapsed');
-        }
+        // Remove a classe que anima a abertura da categoria
+        setTimeout(() => {
+            todosConteudos[5].classList.remove('conteudos-roll');
+        }, 50);
 
         // Delay de 285ms (milissegundos)
         setTimeout(() => {
             // Adicione a classe "closed" à categoria. Feche-a.
             todosConteudos[5].classList.add('closed');
-        }, 285);
+        }, 1100);
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[5].classList.remove('arrow-dropdown-upsidedown');
@@ -365,7 +323,7 @@ function funcConteudoTrovadorismo() {
         // Cria um anchor no DOM
         var anchorStruct = document.createElement('a');
         // Define suas classes
-        anchorStruct.setAttribute('class', 'item-conteudo item-collapsed');
+        anchorStruct.setAttribute('class', 'item-conteudo');
         // Define o atributo href para o valor da chave 'url' do objeto atual.
         anchorStruct.setAttribute('href', e.url);
         // Define o atributo target para abrir o vídeo numa nova página caso clicado.
@@ -406,7 +364,7 @@ function funcConteudoHumanismo() {
         // Cria um anchor no DOM
         var anchorStruct = document.createElement('a');
         // Define suas classes
-        anchorStruct.setAttribute('class', 'item-conteudo item-collapsed');
+        anchorStruct.setAttribute('class', 'item-conteudo');
         // Define o atributo href para o valor da chave 'url' do objeto atual.
         anchorStruct.setAttribute('href', e.url);
         // Define o atributo target para abrir o vídeo numa nova página caso clicado.
@@ -447,7 +405,7 @@ function funcConteudoClassicismo() {
         // Cria um anchor no DOM
         var anchorStruct = document.createElement('a');
         // Define sua classe
-        anchorStruct.setAttribute('class', 'item-conteudo item-collapsed');
+        anchorStruct.setAttribute('class', 'item-conteudo');
         // Define o atributo href para o valor da chave 'url' do objeto atual.
         anchorStruct.setAttribute('href', e.url);
         // Define o atributo target para abrir o vídeo numa nova página caso clicado.
@@ -488,7 +446,7 @@ function funcConteudoQuinhentismo() {
         // Cria um anchor no DOM
         var anchorStruct = document.createElement('a');
         // Define sua classe
-        anchorStruct.setAttribute('class', 'item-conteudo item-collapsed');
+        anchorStruct.setAttribute('class', 'item-conteudo');
         // Define o atributo href para o valor da chave 'url' do objeto atual.
         anchorStruct.setAttribute('href', e.url);
         // Define o atributo target para abrir o vídeo numa nova página caso clicado.
@@ -529,7 +487,7 @@ function funcConteudoBarroco() {
         // Cria um anchor no DOM
         var anchorStruct = document.createElement('a');
         // Define suas classes
-        anchorStruct.setAttribute('class', 'item-conteudo item-collapsed');
+        anchorStruct.setAttribute('class', 'item-conteudo');
         // Define o atributo href para o valor da chave 'url' do objeto atual.
         anchorStruct.setAttribute('href', e.url);
         // Define o atributo target para abrir o vídeo numa nova página caso clicado.
@@ -570,7 +528,7 @@ function funcConteudoArcadismo() {
         // Cria um anchor no DOM
         var anchorStruct = document.createElement('a');
         // Define suas classes
-        anchorStruct.setAttribute('class', 'item-conteudo item-collapsed');
+        anchorStruct.setAttribute('class', 'item-conteudo');
         // Define o atributo href para o valor da chave 'url' do objeto atual.
         anchorStruct.setAttribute('href', e.url);
         // Define o atributo target para abrir o vídeo numa nova página caso clicado.
