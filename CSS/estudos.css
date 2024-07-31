@@ -262,7 +262,7 @@ main {
     font-family: 'Poppins';
 
     margin-top: 48px;
-    
+
     width: 90%;
     height: fit-content;
 
@@ -284,7 +284,7 @@ main {
     flex-direction: column;
 
     cursor: pointer;
-    
+
     padding: 16px;
     margin-top: 32px;
 }
@@ -295,9 +295,11 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .categoria-select-titulo h3 {
     font-size: 1.5rem;
 }
+
 .arrow-dropdown {
     height: 50%;
 
@@ -308,6 +310,7 @@ main {
 
     transition: transform 300ms ease;
 }
+
 .arrow-dropdown-upsidedown {
     transform: rotateZ(180deg) translate(0, 50%);
 }
@@ -328,11 +331,13 @@ main {
 
     transition: all 1s;
 }
+
 .closed {
     display: none;
 }
+
 .conteudos-roll {
-    max-height: 300px;
+    max-height: 1000px;
 }
 
 .item-conteudo {
@@ -354,9 +359,11 @@ main {
 
     transition: opacity 100ms;
 }
+
 .item-conteudo:hover {
     background-color: rgb(164, 176, 190);
 }
+
 .item-collapsed {
     opacity: 0;
 }

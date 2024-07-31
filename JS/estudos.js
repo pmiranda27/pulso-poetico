@@ -5,60 +5,60 @@ import estudos from '../JSON/estudos.json' with { type: 'json' };
 console.log(estudos);
 
 // Guarda todas as divs com a classe "categoria-select" numa váriavel;
-    // Como são várias com a mesma classe, será um array.
+// Como são várias com a mesma classe, será um array.
 const todasCategorias = document.getElementsByClassName("categoria-select");
 // Guarda todas as imagens com a classe "arrow-dropdown" numa váriavel;
-    // Como são várias com a mesma classe, será um array.
+// Como são várias com a mesma classe, será um array.
 const arrowDropdownImages = document.getElementsByClassName("arrow-dropdown");
 // Guarda todas as sections com a classe "conteudos" numa váriavel;
-    // Como são várias com a mesma classe, será um array.
+// Como são várias com a mesma classe, será um array.
 const todosConteudos = document.getElementsByClassName("conteudos");
 
 // Guarda os respectivos elementos HTML sobre o Trovadorismo em variáveis.
 const quantidadeTrovadorismo = document.getElementById('categoria-trovadorismo');
 const conteudoTrovadorismo = document.getElementById('conteudo-trovadorismo');
 // Guarda todos os anchors (links) que são filhos do elemento "conteudo-trovadorismo".
-    // No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
+// No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
 var todosAnchorsTrovadorismo = conteudoTrovadorismo.getElementsByClassName('item-conteudo');
 
 // Guarda os respectivos elementos HTML sobre o Humanismo em variáveis.
 const quantidadeHumanismo = document.getElementById('categoria-humanismo');
 const conteudoHumanismo = document.getElementById('conteudo-humanismo');
 // Guarda todos os anchors (links) que são filhos do elemento "conteudo-humanismo".
-    // No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
+// No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
 var todosAnchorsHumanismo = conteudoHumanismo.getElementsByClassName('item-conteudo');
 
 // Guarda os respectivos elementos HTML sobre o Classicismo em variáveis.
 const quantidadeClassicismo = document.getElementById('categoria-classicismo');
 const conteudoClassicismo = document.getElementById('conteudo-classicismo');
 // Guarda todos os anchors (links) que são filhos do elemento "conteudo-classicismo".
-    // No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
+// No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
 var todosAnchorsClassicismo = conteudoClassicismo.getElementsByClassName('item-conteudo');
 
 // Guarda os respectivos elementos HTML sobre o Quinhentismo em variáveis.
 const quantidadeQuinhentismo = document.getElementById('categoria-quinhentismo');
 const conteudoQuinhentismo = document.getElementById('conteudo-quinhentismo');
 // Guarda todos os anchors (links) que são filhos do elemento "conteudo-quinhentismo".
-    // No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
+// No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
 var todosAnchorsQuinhentismo = conteudoQuinhentismo.getElementsByClassName('item-conteudo');
 
 // Guarda os respectivos elementos HTML sobre o Barroco em variáveis.
 const quantidadeBarroco = document.getElementById('categoria-barroco');
 const conteudoBarroco = document.getElementById('conteudo-barroco');
 // Guarda todos os anchors (links) que são filhos do elemento "conteudo-barroco".
-    // No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
+// No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
 var todosAnchorsBarroco = conteudoBarroco.getElementsByClassName('item-conteudo');
 
 // Guarda os respectivos elementos HTML sobre o Arcadismo em variáveis.
 const quantidadeArcadismo = document.getElementById('categoria-arcadismo');
 const conteudoArcadismo = document.getElementById('conteudo-arcadismo');
 // Guarda todos os anchors (links) que são filhos do elemento "conteudo-arcadismo".
-    // No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
+// No momento sem valor algum, pois ainda não existem, será reabordada mais tarde.
 var todosAnchorsArcadismo = conteudoArcadismo.getElementsByClassName('item-conteudo');
 
 //! IMPORTANTE
-    //! Salva todos os objetos (vídeos) presentes em cada categoria no JSON em suas respectivas variáveis.
-    //! São arrays.
+//! Salva todos os objetos (vídeos) presentes em cada categoria no JSON em suas respectivas variáveis.
+//! São arrays.
 var videosTrovadorismo = estudos.trovadorismo;
 
 var videosHumanismo = estudos.humanismo;
@@ -73,10 +73,10 @@ var videosArcadismo = estudos.arcadismo;
 
 
 //! NÃO SEI O PORQUÊ, MAS EU NÃO CONSEGUI FAZER FUNCIONAR USANDO UM FOR LOOP
-    //! Gambiarra a gente aceita, o que não aceitamos é a derrota
-    
+//! Gambiarra a gente aceita, o que não aceitamos é a derrota
+
 //TODO: Transferir para um for loop no futuro para tornar o código future-proof.
-    // Adiciona um EventListener que ouve clicks na primeira categoria.
+// Adiciona um EventListener que ouve clicks na primeira categoria.
 todasCategorias[0].addEventListener('click', () => {
     // Se a categoria estiver fechada.
     if (todosConteudos[0].classList.contains('closed')) {
@@ -91,7 +91,7 @@ todasCategorias[0].addEventListener('click', () => {
             todosConteudos[0].classList.add('conteudos-roll');
         }, 50);
 
-    // Caso a categoria estiver aberta
+        // Caso a categoria estiver aberta
     } else {
         // Remove a classe que anima a abertura da categoria
         setTimeout(() => {
@@ -107,12 +107,12 @@ todasCategorias[0].addEventListener('click', () => {
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[0].classList.remove('arrow-dropdown-upsidedown');
     }
-    
+
 
 });
 
 //TODO: Transferir para um for loop no futuro para tornar o código future-proof.
-    // Adiciona um EventListener que ouve clicks na segunda categoria.
+// Adiciona um EventListener que ouve clicks na segunda categoria.
 todasCategorias[1].addEventListener('click', () => {
     // Se a categoria estiver fechada.
     if (todosConteudos[1].classList.contains('closed')) {
@@ -127,7 +127,7 @@ todasCategorias[1].addEventListener('click', () => {
             todosConteudos[1].classList.add('conteudos-roll');
         }, 50);
 
-    // Se a categoria estiver aberta.
+        // Se a categoria estiver aberta.
     } else {
         // Remove a classe que anima a abertura da categoria
         setTimeout(() => {
@@ -142,11 +142,11 @@ todasCategorias[1].addEventListener('click', () => {
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[1].classList.remove('arrow-dropdown-upsidedown');
-   }
+    }
 });
 
 //TODO: Transferir para um for loop no futuro para tornar o código future-proof.
-    // Adiciona um EventListener que ouve clicks na terceira categoria.
+// Adiciona um EventListener que ouve clicks na terceira categoria.
 todasCategorias[2].addEventListener('click', () => {
     // Se a categoria estiver fechada.
     if (todosConteudos[2].classList.contains('closed')) {
@@ -161,7 +161,7 @@ todasCategorias[2].addEventListener('click', () => {
             todosConteudos[2].classList.add('conteudos-roll');
         }, 50);
 
-    // Se a categoria estiver fechada.
+        // Se a categoria estiver fechada.
     } else {
         // Remove a classe que anima a abertura da categoria
         setTimeout(() => {
@@ -176,11 +176,11 @@ todasCategorias[2].addEventListener('click', () => {
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[2].classList.remove('arrow-dropdown-upsidedown');
-   }
+    }
 });
 
 //TODO: Transferir para um for loop no futuro para tornar o código future-proof.
-    // Adiciona um EventListener que ouve clicks na quarta categoria.
+// Adiciona um EventListener que ouve clicks na quarta categoria.
 todasCategorias[3].addEventListener('click', () => {
     // Se a categoria estiver fechada.
     if (todosConteudos[3].classList.contains('closed')) {
@@ -195,7 +195,7 @@ todasCategorias[3].addEventListener('click', () => {
             todosConteudos[3].classList.add('conteudos-roll');
         }, 50);
 
-    // Se a categoria estiver aberta.
+        // Se a categoria estiver aberta.
     } else {
         // Remove a classe que anima a abertura da categoria
         setTimeout(() => {
@@ -210,11 +210,11 @@ todasCategorias[3].addEventListener('click', () => {
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[3].classList.remove('arrow-dropdown-upsidedown');
-   }
+    }
 });
 
 //TODO: Transferir para um for loop no futuro para tornar o código future-proof.
-    // Adiciona um EventListener que ouve clicks na quinta categoria.
+// Adiciona um EventListener que ouve clicks na quinta categoria.
 todasCategorias[4].addEventListener('click', () => {
     // Se a categoria estiver fechada.
     if (todosConteudos[4].classList.contains('closed')) {
@@ -223,13 +223,13 @@ todasCategorias[4].addEventListener('click', () => {
 
         // Adiciona a classe que gira a seta para baixo, apenas estético.
         arrowDropdownImages[4].classList.add('arrow-dropdown-upsidedown');
-        
+
         // Adiciona a classe que anima a abertura da categoria
         setTimeout(() => {
             todosConteudos[4].classList.add('conteudos-roll');
         }, 50);
 
-    // Se a categoria estiver aberta.
+        // Se a categoria estiver aberta.
     } else {
         // Remove a classe que anima a abertura da categoria
         setTimeout(() => {
@@ -244,11 +244,11 @@ todasCategorias[4].addEventListener('click', () => {
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[4].classList.remove('arrow-dropdown-upsidedown');
-   }
+    }
 });
 
 //TODO: Transferir para um for loop no futuro para tornar o código future-proof.
-    // Adiciona um EventListener que ouve clicks na sexta categoria.
+// Adiciona um EventListener que ouve clicks na sexta categoria.
 todasCategorias[5].addEventListener('click', () => {
     // Se a categoria estiver fechada.
     if (todosConteudos[5].classList.contains('closed')) {
@@ -263,7 +263,7 @@ todasCategorias[5].addEventListener('click', () => {
             todosConteudos[5].classList.add('conteudos-roll');
         }, 50);
 
-    // Se a categoria estiver aberta.
+        // Se a categoria estiver aberta.
     } else {
         // Remove a classe que anima a abertura da categoria
         setTimeout(() => {
@@ -278,11 +278,11 @@ todasCategorias[5].addEventListener('click', () => {
 
         // Remove a classe e gira a seta de volta para cima, apenas estético.
         arrowDropdownImages[5].classList.remove('arrow-dropdown-upsidedown');
-   }
+    }
 });
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
 
 // Imprime a quantidade de categorias e de conteudos, apenas para debugging.
 console.log('todasCategorias length: ' + todasCategorias.length);
@@ -290,7 +290,7 @@ console.log('todosConteudos length: ' + todosConteudos.length);
 
 
 //! Função que recarrega e exibe a quantidade de vídeos presente em cada categoria
-function recarregarQuantidadeVideos(){
+function recarregarQuantidadeVideos() {
     quantidadeTrovadorismo.innerHTML = `${videosTrovadorismo.length} vídeos`;
     quantidadeHumanismo.innerHTML = `${videosHumanismo.length} vídeos`;
     quantidadeClassicismo.innerHTML = `${videosClassicismo.length} vídeos`;
@@ -310,7 +310,7 @@ function recarregarConteudoCategorias() {
 }
 
 //! Função chamada no fim do carregamento da página.
-    //! SUPER IMPORTANTE
+//! SUPER IMPORTANTE
 window.addEventListener('load', function (e) {
     recarregarQuantidadeVideos();
     recarregarConteudoCategorias();
@@ -351,9 +351,9 @@ function funcConteudoTrovadorismo() {
     });
 
     //! Redefine o valor da variável criada no começo, adicionando todos os elementos com a classe -
-        //! 'item-conteudo' que são FILHOS do elemento conteudoTrovadorismo
-        //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
-            //* falei que a gente ia reabordar essa variável depois.
+    //! 'item-conteudo' que são FILHOS do elemento conteudoTrovadorismo
+    //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
+    //* falei que a gente ia reabordar essa variável depois.
     todosAnchorsTrovadorismo = conteudoTrovadorismo.getElementsByClassName('item-conteudo');
 }
 
@@ -392,9 +392,9 @@ function funcConteudoHumanismo() {
     });
 
     //! Redefine o valor da variável criada no começo, adicionando todos os elementos com a classe -
-        //! 'item-conteudo' que são FILHOS do elemento conteudoHumanismo
-        //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
-            //* falei que a gente ia reabordar essa variável depois.
+    //! 'item-conteudo' que são FILHOS do elemento conteudoHumanismo
+    //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
+    //* falei que a gente ia reabordar essa variável depois.
     todosAnchorsHumanismo = conteudoHumanismo.getElementsByClassName('item-conteudo');
 }
 
@@ -433,9 +433,9 @@ function funcConteudoClassicismo() {
     });
 
     //! Redefine o valor da variável criada no começo, adicionando todos os elementos com a classe -
-        //! 'item-conteudo' que são FILHOS do elemento conteudoClassicismo
-        //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
-            //* falei que a gente ia reabordar essa variável depois.
+    //! 'item-conteudo' que são FILHOS do elemento conteudoClassicismo
+    //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
+    //* falei que a gente ia reabordar essa variável depois.
     todosAnchorsClassicismo = conteudoClassicismo.getElementsByClassName('item-conteudo');
 }
 
@@ -474,9 +474,9 @@ function funcConteudoQuinhentismo() {
     });
 
     //! Redefine o valor da variável criada no começo, adicionando todos os elementos com a classe -
-        //! 'item-conteudo' que são FILHOS do elemento conteudoQuinhentismo
-        //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
-            //* falei que a gente ia reabordar essa variável depois.
+    //! 'item-conteudo' que são FILHOS do elemento conteudoQuinhentismo
+    //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
+    //* falei que a gente ia reabordar essa variável depois.
     todosAnchorsQuinhentismo = conteudoQuinhentismo.getElementsByClassName('item-conteudo');
 }
 
@@ -515,9 +515,9 @@ function funcConteudoBarroco() {
     });
 
     //! Redefine o valor da variável criada no começo, adicionando todos os elementos com a classe -
-        //! 'item-conteudo' que são FILHOS do elemento conteudoBarroco
-        //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
-            //* falei que a gente ia reabordar essa variável depois.
+    //! 'item-conteudo' que são FILHOS do elemento conteudoBarroco
+    //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
+    //* falei que a gente ia reabordar essa variável depois.
     todosAnchorsBarroco = conteudoBarroco.getElementsByClassName('item-conteudo');
 }
 
@@ -556,8 +556,8 @@ function funcConteudoArcadismo() {
     });
 
     //! Redefine o valor da variável criada no começo, adicionando todos os elementos com a classe -
-        //! 'item-conteudo' que são FILHOS do elemento conteudoArcadismo
-        //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
-            //* falei que a gente ia reabordar essa variável depois.
+    //! 'item-conteudo' que são FILHOS do elemento conteudoArcadismo
+    //! DEIXA ESSA BAGAÇA AQUI, É IMPORTANTE!
+    //* falei que a gente ia reabordar essa variável depois.
     todosAnchorsArcadismo = conteudoArcadismo.getElementsByClassName('item-conteudo');
 }

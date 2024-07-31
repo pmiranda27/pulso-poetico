@@ -3,71 +3,102 @@
         {
             "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
             "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
-        }, {
-            "titulo": "Beto Carreiro World",
-            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
+            "url": "https://www.youtube.com/watch?v=N8aCwmWgVyA"
+        },
+        {
+            "titulo": "Trovadorismo - Cantigas [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/ea65K0B9TLk/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=ea65K0B9TLk"
+        },
+        {
+            "titulo": "Trovadorismo - Brasil Escola",
+            "thumbnail": "http://img.youtube.com/vi/_TR6CsD2Vho/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=_TR6CsD2Vho"
         }
     ],
-
     "humanismo": [
         {
-            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
-            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
-        }, {
-            "titulo": "Beto Carreiro World",
-            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
-        }   
+            "titulo": "Humanismo [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/TaiiIil8-Ow/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=TaiiIil8-Ow"
+        },
+        {
+            "titulo": "Humanismo - Brasil Escola",
+            "thumbnail": "http://img.youtube.com/vi/_q7D1iigWuw/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=_q7D1iigWuw"
+        },
+        {
+            "titulo": "Humanismo - Toda Matéria",
+            "thumbnail": "http://img.youtube.com/vi/WBQq2ThCBfU/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=WBQq2ThCBfU"
+        }
     ],
-
     "classicismo": [
         {
-            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
-            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
-        }, {
-            "titulo": "Beto Carreiro World",
-            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
-        }   
+            "titulo": "Classicismo [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/yUx7vExUi4k/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=yUx7vExUi4k"
+        },
+        {
+            "titulo": "Classicismo - Brasil Escola",
+            "thumbnail": "http://img.youtube.com/vi/ctPd49Vno2U/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=ctPd49Vno2U"
+        },
+        {
+            "titulo": "Literatura - Classicismo",
+            "thumbnail": "http://img.youtube.com/vi/ckViwMkcqPc/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=ckViwMkcqPc"
+        }
     ],
-
     "quinhentismo": [
         {
-            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
-            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
-        }, {
-            "titulo": "Beto Carreiro World",
-            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
-        }   
+            "titulo": "Quinhentismo [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/WULOzFYZ30g/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=WULOzFYZ30g"
+        },
+        {
+            "titulo": "QUINHENTISMO | Principais características e contexto histórico",
+            "thumbnail": "http://img.youtube.com/vi/qwpbHJXSXQI/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=qwpbHJXSXQI"
+        },
+        {
+            "titulo": "Quinhentismo no Brasil - Brasil Escola",
+            "thumbnail": "http://img.youtube.com/vi/IvOuaYqLJTo/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=IvOuaYqLJTo"
+        }
     ],
-
     "barroco": [
         {
-            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
-            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
-        }, {
-            "titulo": "Beto Carreiro World",
-            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
-        }   
+            "titulo": "Barroco no Brasil - Literatura",
+            "thumbnail": "http://img.youtube.com/vi/A88aSuuwwCM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=A88aSuuwwCM"
+        },
+        {
+            "titulo": "Barroco em Portugal [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/zGVONzNXGSo/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=zGVONzNXGSo"
+        },
+        {
+            "titulo": "BARROCO: CONTEXTO HISTÓRICO E CARACTERÍSTICAS | Resumo de Literatura para o Enem",
+            "thumbnail": "http://img.youtube.com/vi/XXw9DRI7_b0/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=XXw9DRI7_b0"
+        }
     ],
-
     "arcadismo": [
         {
-            "titulo": "Trovadorismo - Contexto Histórico [Prof. Noslen]",
-            "thumbnail": "http://img.youtube.com/vi/N8aCwmWgVyA/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=56mJxMMi9bA"
-        }, {
-            "titulo": "hehfgdhgf",
-            "thumbnail": "http://img.youtube.com/vi/dPAC62ITNdM/maxresdefault.jpg",
-            "url": "https://www.youtube.com/watch?v=dPAC62ITNdM"
-        }   
+            "titulo": "Arcadismo no Brasil [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/-ko2O_3gijM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=-ko2O_3gijM"
+        },
+        {
+            "titulo": "Arcadismo em Portugal [Prof. Noslen]",
+            "thumbnail": "http://img.youtube.com/vi/Yadx1nAvgyo/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=Yadx1nAvgyo"
+        },
+        {
+            "titulo": "Arcadismo: Contexto Histórico e Características - Brasil Escola",
+            "thumbnail": "http://img.youtube.com/vi/svEGlGf5Zo4/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=svEGlGf5Zo4"
+        }
     ]
 }
